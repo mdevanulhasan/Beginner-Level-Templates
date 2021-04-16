@@ -1,0 +1,299 @@
+/* COMMON CSS START */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+:root {
+	--bodyHeight: 1000px;
+}
+html {
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+}
+body {
+	font-size: 1.6rem;
+	line-height: 2.4rem;
+	min-height: var(--bodyHeight);
+	text-rendering: optimizeLegibility;
+	font-family: georgian;
+}
+header, section, footer, aside, nav, main, article, figure {
+	display: block;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+ul {
+	list-style-type: none;
+}
+a:link {
+	text-decoration: none;
+}
+.custom_container {
+	max-width: 96rem;
+	width: 90%;
+	margin: 0 auto;
+}
+.inner_area {
+	overflow: hidden;
+	clear: both;
+}
+.actives {
+	background: #957964;
+}
+/* COMMON CSS END */
+/* HEADER SECTION START */
+/* TOP HEADER START */
+header#header .top_header {
+	padding: 4rem 0;
+}
+header#header .top_header .logo_area {
+	width: 25%;
+	float: left;
+	text-align: left;
+}
+header#header .top_header .search_area {
+	width: 75%;
+	float: right;
+	text-align: right;
+}
+header#header .top_header .search_area form {
+	max-width: 32rem;
+	width: 50%;
+	float: right;
+	text-align: right;
+	padding: .2rem;
+}
+header#header .top_header .search_area form input {
+	border: none;
+	float: left;
+	width: 73%;
+	padding: 0 0 0 1rem;
+	height: 3.5rem;
+	background: #e6dfd9;
+	border-radius: .9rem;
+}
+header#header .top_header .search_area form input::placeholder {
+	color: #666666;
+}
+header#header .top_header .search_area form input[type="submit"] {
+	float: right;
+	width: 25%;
+	background: #e95a3c;
+	color: #fff;
+	padding: 0;
+	font-size: 1.4rem;
+}
+/* TOP HEADER END */
+/* BOTTOM HEADER START */
+header#header .bottom_header .navigation_menu .navbar .navbar-nav {
+    background: #e95a3c;
+	border-radius: 1rem;
+}
+header#header .bottom_header .navigation_menu .navbar ul li a {
+    padding: 2rem 2.26rem;
+    color: #fff;
+	transition: .3s all ease;
+}
+header#header .bottom_header .navigation_menu .navbar ul li a:hover {
+	background: #957964;
+}
+header#header .bottom_header .navigation_menu .navbar ul li {
+    border-right: .1rem solid #fff;
+    display: inline-flex;
+}
+header#header .bottom_header .navigation_menu .navbar ul li:last-child {
+	border: none;
+}
+/* BOTTOM HEADER END */
+/* HEADER SECTION END */
+/* TITLE SECTION START */
+section#title {
+	padding: 3rem 0;
+}
+section#title .title_area {
+	border-bottom: .2rem solid #d2c7bd;
+	position: relative;
+}
+section#title .title_content {
+    position: absolute;
+    bottom: 10%;
+    right: 5%;
+}
+section#title .title_content h1 {
+    color: #957964;
+    font-size: 3.6rem;
+    margin-bottom: 2rem;
+}
+section#title .title_content p.description {
+    color: #666666;
+    margin-bottom: 2rem;
+}
+section#title .title_content a.read_more_btn {
+    color: #fff;
+	background: #e95a3c;
+	padding: 1rem;
+	border-radius: .9rem;
+	transition: .3s all ease;
+}
+section#title .title_content a.read_more_btn:hover {
+	background: #957964;
+	color: #fff;
+}
+/* TITLE SECTION END */
+/* BROAD TEXT CONTENT START */
+section#broad_text_content {
+	padding: 2rem 0;
+}
+section#broad_text_content .broad_text {
+	color: #957964;
+	font-weight: bold;
+	font-size: 3.6rem;
+	margin-bottom: 1.5rem;
+	line-height: 4rem;
+}
+section#broad_text_content .broad_description {
+    font-size: 1.8rem;
+    color: #666666;
+    width: 57%;
+    margin: auto;
+}
+section#broad_text_content .border_bottom {
+    width: 80%;
+    margin: auto;
+    height: .3rem;
+    background: #e3ddd7;
+    border-radius: 50%;
+}
+section#broad_text_content .broad_box h2 {
+    color: #947964;
+    margin-bottom: .7rem;
+	font-weight: bold;
+}
+section#broad_text_content .broad_box .short_description {
+	color: #666666;
+	margin-bottom: 2rem;
+}
+section#broad_text_content .broad_box .read_more_btn {
+	color: #fff;
+	background: #e95a3c;
+	padding: 1rem;
+	border-radius: .9rem;
+	transition: .3s all ease;
+}
+section#broad_text_content .broad_box .read_more_btn:hover {
+	background: #957964;
+	color: #fff;
+}
+/* BROAD TEXT CONTENT END */
+/* SHORT TEXT CONTENT START */
+section#short_text_content {
+    padding: 1rem 0;
+    padding-bottom: 3rem;
+}
+section#short_text_content h3 {
+	font-size: 1.8rem;
+	color: #947964;
+	margin-bottom: 2rem;
+	font-weight: bold;
+}
+section#short_text_content p.short_description {
+	color: #666666;
+}
+section#short_text_content .img_thumb {
+    padding: .3rem;
+    border: .1rem solid #d2c7bd;
+    margin-bottom: 1rem;
+    display: inline-block;
+}
+section#short_text_content .read_more_btn {
+	color: #fff;
+	background: #e95a3c;
+	padding: 1rem;
+	border-radius: .9rem;
+	transition: .3s all ease;
+}
+section#short_text_content .read_more_btn:hover {
+	background: #957964;
+	color: #fff;
+}
+/* SHORT TEXT CONTENT END */
+/* FOOTER SECTION START */
+footer#footer .footer_area {
+	padding: 2rem 0;
+	border-top: .1rem solid #d2c7bd;
+	border-bottom: .1rem solid #d2c7bd;
+}
+footer#footer h4 {
+	color: #957964;
+	margin-bottom: 1.5rem;
+	font-size: 1.8rem;
+}
+footer#footer ul li a {
+	color: #e95a3c;
+}
+footer#footer .short_description {
+	color: #666666;
+}
+footer#footer span {
+	color: #e95a3c;
+	font-weight: bold;
+}
+footer#footer .social_icon ul li {
+	display: inline-block;
+}
+footer#footer .social_icon ul li a {
+	display: block;
+}
+footer#footer .social_icon ul li a i {
+	color: #fff;
+	background: #e95a3c;
+	padding: 1rem;
+	margin: .2rem;
+	border-radius: 50%;
+}
+footer#footer .social_icon ul li a i:hover {
+	background: #957964;
+}
+footer#footer .social_icon ul li a i.fa-linkedin-in:hover {
+	background: #007ab7;
+}
+footer#footer .social_icon ul li a i.fa-twitter:hover {
+	background: #2aa3ef;
+}
+footer#footer .social_icon ul li a i.fa-pinterest:hover {
+	background: #e42b33;
+}
+footer#footer .social_icon ul li a i.fa-google-plus-g:hover {
+	background: #dc4335;
+}
+footer#footer .social_icon ul li a i.fa-rss:hover {
+	background: #ee802f;
+}
+footer#footer .search_box input {
+	background: #e6dfd9;
+	border-radius: .5rem;
+	border: none;
+	padding: .8rem;
+	margin-bottom: 1rem;
+}
+footer#footer .search_box input[type="submit"] {
+	background: #e95a3c;
+	color: #fff;
+	transition: .3s all ease;
+}
+footer#footer .search_box input[type="submit"]:hover {
+	background: #957964;
+	color: #fff;
+}
+/* FOOTER SECTION END */
+/* COPYRIGHT SECTION START */
+#copyright {
+	padding: 2rem 0;
+}
+#copyright .copyright {
+	color: #666666;
+}
+/* COPYRIGHT SECTION END */

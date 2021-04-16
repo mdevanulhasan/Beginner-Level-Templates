@@ -1,0 +1,116 @@
+/* RESPONSIVE STYLE START */
+@media all and (max-width: 991px) {
+	header#header .bottom_header .navigation_item {
+		width: 100%;
+		float: none;
+		text-align: center;
+		margin-top: 1rem;
+	}
+	header#header .bottom_header .logo_area {
+		width: 100%;
+		float: left;
+		text-align: center;
+		margin-bottom: 2rem;
+	}
+}
+@media all and (max-width: 767px) {
+	.actives {
+		color: #fff !important;
+	}
+	header#header .bottom_header {
+		padding: 0;
+	}
+	header#header .top_header {
+		padding: 2rem 0;
+		display: inline-block;
+		width: 100%;
+	}
+	section#slider_section {
+		padding: 3rem 0;
+		background: #212d3a;
+	}
+	.mean-container .mean-nav {
+		margin: 1rem;
+    background: #fff;
+	}
+	.mean-container a.meanmenu-reveal {
+		padding: 1.1rem 0rem 1.1rem;
+		color: #212d3a;
+		top: .9rem;
+		width: auto;
+	}
+	.mean-container .mean-bar {
+		background: #fff;
+		padding: 0;
+	}
+	.mean-container a.meanmenu-reveal span {
+		display: inline;
+	}
+	.mean-container .mean-nav ul li a {
+		color: #fff;
+	}
+	.mean-container .mean-nav ul {
+		margin: 1rem 0rem -1.7rem -1rem;
+		background: #212d3a;
+		display: inline-block;
+		margin-bottom: 1rem;
+	}
+	.mean-container a.meanmenu-reveal span::after {
+		content: "";
+		display: block;
+		clear: both;
+		margin-top: .5rem;
+		height: .2rem;
+		width: 1.2rem;
+		background: #212d3a;
+	}
+	section#slider_section .owl-carousel .owl-nav button.owl-next {
+		left: 10%;
+	}
+	section#small_slider .owl-carousel .owl-nav button.owl-prev {
+		top: 26%;
+		left: -1%;
+	}
+	section#small_slider .owl-carousel .owl-nav button.owl-next {
+		top: 26%;
+		right: -1%;
+	}
+}
+@media all and (max-width: 575px) {
+	html {font-size: 50%}
+	header#header .top_header .social_area {
+		float: left;
+		width: 100%;
+		text-align: center;
+		margin-bottom: 2rem;
+	}
+	header#header .top_header .search_area {
+		width: 100%;
+		text-align: center;
+	}
+	header#header .top_header .search_area form {
+		float: none;
+		display: inline-block;
+	}
+	section#slider_section .owl-carousel .owl-nav button.owl-next {
+		left: 14%;
+	}
+	section#hero_section {
+		padding: 2rem 0;
+	}
+	section#hero_section .row {
+		width: 70%;
+		margin: auto;
+	}
+	section#hero_section .hero_content .row {
+		width: 100%;
+	}
+	section#hero_section .hero_content .row .col {
+		padding: 0;
+	}
+	footer#footer .row {
+		width: 85%;
+		margin: auto;
+	}
+}
+/* RESPONSIVE STYLE END */
